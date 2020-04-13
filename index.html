@@ -1,0 +1,40 @@
+<div class="main-content">
+    <div class="all-details page">
+            <h3 style="color:aqua;">Sample Application</h3>
+            <div class="filters">
+                <form>
+                    <checkbox></checkbox>
+                </form>
+            </div>
+    <ul class="details-introduction">
+        <script id="introduction-template" type="x-handlebars-template">
+                <li data-index="{{id}}">
+                    <a href="#" class="introduction-photo"><img src="{{image-small}}" height="150" title="photo" alt="intro-bg"/></a>
+                    <h2><a href="#"> {{name}} </a></h2>
+                    <ul class="intro-description">
+                        <li><span>"Introduction"</span>{{blogger.profile}}</li>
+                        <li><span>"Services"</span>{{blogger.services}}</li>
+                        <li><span>"Contact Us"</span>{{blogger.contact}}</li>
+                    </ul>
+                    <button>Contact Me</button>
+                    <p class="blogger-portfolio">{{portfolio}}$</p>
+                    <div class="highlight"></div>    
+                </li>
+        </script>
+    </ul>
+    </div>
+
+    <div class="Tech Articles">
+        <div class="overlay"></div>
+        <div class="preview-large">
+                <h3 style="color:aqua;"></h3>
+                <img src=""/>
+
+                <span class="close">&times;</span>
+        </div>
+
+        <div class="error page">
+                <h3>Sorry, something went wrong! </h3>
+        </div>
+        
+    </div>

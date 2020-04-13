@@ -1,0 +1,10 @@
+[
+    {
+    "description": "Single Page Application",
+    "rating": 5,
+    "image": {
+        "small": "/images/",
+        "large": "/images"
+    }
+    },
+]
